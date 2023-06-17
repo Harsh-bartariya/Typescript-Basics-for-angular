@@ -15,4 +15,4 @@ Run through `node<filename>` to see the output on console.
 
 ## Further help
 
-To get more help on this basic project `Raise an issue` here [Angular CLI Overview and Command Reference](https://github.com/Harsh-bartariya/Typescript-Basics-for-angular/issues) on Github.
+To get more help on this basic project `Raise an issue` here [Typescript doubts and issues](https://github.com/Harsh-bartariya/Typescript-Basics-for-angular/issues) on Github.
