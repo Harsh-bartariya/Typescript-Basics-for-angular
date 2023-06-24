@@ -47,3 +47,4 @@ animal.push("Tiger");
 for (let temp_itration_element of animal){
     console.log(temp_itration_element); 
 }
+export{};//https://web.archive.org/web/20180609155906/http://fullstack-developer.academy/cannot-redeclare-block-scoped-variable-name/

@@ -34,7 +34,7 @@ for (var _a = 0, sportc_1 = sportc; _a < sportc_1.length; _a++) {
 //Growable arrays or dynamic array
 console.log("Growable arrays or dynamic array");
 var animal = ["Dog", "cow", "monkey", "cat"];
-animal.push("Lion"); // push to add a new value
+animal.push("Lion"); // push to add a new value | by default will add at the end
 animal.push("Tiger");
 for (var _b = 0, animal_1 = animal; _b < animal_1.length; _b++) {
     var temp_itration_element = animal_1[_b];
