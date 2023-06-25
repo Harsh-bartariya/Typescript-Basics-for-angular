@@ -30,7 +30,7 @@ let myStudent = new Student();
 console.log(myStudent.stu_name);
 console.log(myStudent.stu_subject);
 console.log(myStudent.age);
-console.log("checking pull");
+console.log("checking pull & sync");
 
 //if properties are private then how to access them,
 
