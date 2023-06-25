@@ -31,7 +31,7 @@ console.log(myStudent.stu_name);
 console.log(myStudent.stu_subject);
 console.log(myStudent.age);
 console.log("checking pull & sync");
-
+console.log("creating an MR");
 //if properties are private then how to access them,
 
 class Aadhar{
