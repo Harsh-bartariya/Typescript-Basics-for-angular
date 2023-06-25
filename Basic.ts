@@ -30,3 +30,26 @@ console.log("Firstname: " + firstName + " IDEName: " +IDEName+ " fNo: " + fNo);
 // use backticks ` `
 
 console.log(`Here ${firstName}  ${IDEName} `);
+
+// Implicit any as JSON.parse doesn't know what type of data it returns so it can be "any" thing...
+const json = JSON.parse("55");
+// Most expect json to be an object, but it can be a string or a number like this example
+console.log(typeof json);
+
+//  
+// A common use of JSON is to exchange data to/from a web server.
+// When receiving data from a web server, the data is always a string.
+// Parse the data with JSON.parse(), and the data becomes a JavaScript object.
+
+/* Imagine we received this text from a web server:
+
+'{"name":"John", "age":30, "city":"New York"}'
+
+Use the JavaScript function JSON.parse() to convert text into a JavaScript object:
+
+const obj = JSON.parse('{"name":"John", "age":30, "city":"New York"}');
+
+ab ye data ek object me change ho chuka hai
+
+*/
+
